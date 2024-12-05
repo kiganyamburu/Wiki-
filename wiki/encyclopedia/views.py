@@ -10,3 +10,6 @@ def index(request):
 
 def about(request):
     return render(request, "encyclopedia/about.html")
+
+def contact(request):
+    return render(request, "encyclopedia/contact.html")
