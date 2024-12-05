@@ -6,6 +6,15 @@
 
 {% block body %}
     <h1>Contacts</h1>
+    <form action="POST">
+        <label for="name">Email:</label>
+        <input type="email" placeholder="Enter your email"/><br> <br>
+       
+        <input type="textarea"placeholder="Enter your message"/><br> <br>
+        <button>submit
+
+        </button>
+    </form>
 
     <ul>
         {% for entry in entries %}
