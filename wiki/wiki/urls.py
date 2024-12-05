@@ -20,5 +20,6 @@ from encyclopedia import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.index, name="index")
+    path("", views.index, name="index"),
+    path('/encyclopedia/templates/encyclopedia/about.html', views.about, name="about")
 ]
